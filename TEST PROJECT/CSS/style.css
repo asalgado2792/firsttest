@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    padding: 0 20%;
+}
+
+ul{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Holtwood One SC', serif;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    font-weight: bold;
+}
+
+header{
+
+    display: block;
+    font-family: 'Kanit', sans-serif;
+    background-image: url(../IMG/Banner.jpg);
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+table{
+    margin: 20px auto;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+th{
+    border: 3px solid gray;
+}
+
+td{
+    border: 2px solid gray;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 600;
+}
+
+header .content #menu1 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+
+}
+
+header .content{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+header .content .flag{
+    width: 110px;
+}
+
+.introduction{
+    display: block;
+    top: 100px;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.introduction .bridge{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.summary{
+    display: block;
+    top: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.summary .cabecera{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history{
+    display: block;
+    top: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.history .ancientp{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experiences{
+    display: block;
+    top: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    color:whitesmoke;
+    align-items: center;
+    text-decoration: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.column-25{
+	width: 25%;
+    align-items: center;
+}
+
+footer{
+text-decoration: none;
+position: relative;
+align-items: center;
+background-image: url('https://internacional.fcv.org//images/Bucaramanga_como_destino/banner-bucaramanga-internacional.webp');
+}
+
+footer .logo-footer{
+	width: 200px;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+#topics ul{
+    color: whitesmoke;
+    text-decoration: none;
+}
